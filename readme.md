@@ -17,7 +17,10 @@ You can install NumPy and OpenCV using pip:
 pip install numpy opencv-python
 ```
 Enter the starting coordinates in the "Start node" in the terminal
-Enter the Goal noed in the "End node" in the terminal
+Enter the Goal node in the "End node" in the terminal
+Example:
+Start node:10 10 
+End node:1190 490
 ## Running the Program
 
 To run the program, navigate to the directory containing the script and execute the following command in your terminal or command prompt:
