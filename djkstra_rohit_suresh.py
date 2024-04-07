@@ -373,6 +373,7 @@ if __name__ == "__main__":
     
     # Printing the total cost and the path
     end_time = time.time()
+    path = [(path[i][0],djkstra.height - path[i][1]) for i in range(len(path))]
     print(f"Time taken: {(end_time-start_time)/60} minutes.")
     print("\nPath cost: ",total_cost)
     print("\nPath: ",path)
